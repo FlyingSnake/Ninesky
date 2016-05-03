@@ -1,0 +1,12 @@
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\Ninesky.DataLibrary.dll.config
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\Ninesky.DataLibrary.dll
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\Ninesky.DataLibrary.pdb
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\EntityFramework.dll
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\EntityFramework.xml
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\obj\Debug\Ninesky.DataLibrary.csprojResolveAssemblyReference.cache
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\obj\Debug\Ninesky.DataLibrary.dll
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.DataLibrary\obj\Debug\Ninesky.DataLibrary.pdb
