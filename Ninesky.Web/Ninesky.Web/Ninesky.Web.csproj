@@ -171,6 +171,7 @@
     <Compile Include="Areas\Control\ControlAreaRegistration.cs" />
     <Compile Include="Areas\Control\Controllers\AdminController.cs" />
     <Compile Include="Areas\Control\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Control\Models\AddAdminViewModel.cs" />
     <Compile Include="Areas\Control\Models\LoginViewModel.cs" />
     <Compile Include="Areas\Member\Controllers\HomeController.cs" />
     <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
@@ -230,6 +231,10 @@
     <Content Include="Scripts\bootstrap-treeview.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Control\Views\Admin\SideNavPartialView.cshtml" />
+    <Content Include="Areas\Control\Views\Admin\Index.cshtml" />
+    <Content Include="Areas\Control\Views\Admin\AddPartialView.cshtml" />
+    <Content Include="Areas\Control\Views\Admin\MyInfo.cshtml" />
     <None Include="Scripts\jquery-1.12.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.0.js" />
     <Content Include="Scripts\jquery-1.12.0.min.js" />
