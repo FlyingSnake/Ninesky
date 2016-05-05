@@ -12,3 +12,5 @@ E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.Core\bi
 E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.Core\obj\Debug\Ninesky.Core.csprojResolveAssemblyReference.cache
 E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.Core\obj\Debug\Ninesky.Core.dll
 E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.Core\obj\Debug\Ninesky.Core.pdb
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.Core\obj\Debug\Ninesky.Core.Migrations.AddRole.resources
+E:\权限管理\MVC练习--洞庭夕照\MVC5\Ninesky\Ninesky.Web\Ninesky.Core\obj\Debug\Ninesky.Core.csproj.GenerateResource.Cache

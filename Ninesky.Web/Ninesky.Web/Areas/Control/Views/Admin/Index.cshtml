@@ -9,10 +9,20 @@
     <li class="active">@Html.ActionLink("管理员", "Index", "Admin")</li>
 </ol>
 <div id="toolbar" class="btn-group" role="group">
-    <button id="btn_add" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> 添加</button>
+    <button id="btn_add" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> 添加 </button>
     <button id="btn_del" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span> 删除</button>
 </div>
 <table id="admingrid"></table>
+
+
+
+@section style{
+    @Styles.Render("~/Content/bootstrapplugincss")
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrapplugin")
 
 <script type="text/javascript">
     function ResetPassword(id, accounts) {
@@ -47,7 +57,7 @@
             ]
         });
         //表格结束
-
+        
         //工具栏
         //添加按钮
         $("#btn_add").click(function () {
@@ -65,8 +75,8 @@
                 buttons: [{
                     icon: "glyphicon glyphicon-plus",
                     label: "添加",
-                    action: function (dialogItself) {
-                        $.post($("form").attr("action"), $("form").serializeArray(), function (data) {
+                    action: function () {
+                        $.post("/Admin/AddJson", $("form").serializeArray(), function (data) {
                             if (data.Code === 1) {
                                 BootstrapDialog.show({
                                     message: data.Message,
@@ -134,13 +144,5 @@
         //删除按钮结束
     });
 </script>
-
-@section style{
-    @Styles.Render("~/Content/bootstrapplugincss")
-}
-
-@section scripts{
-    @Scripts.Render("~/bundles/jqueryval")
-    @Scripts.Render("~/bundles/bootstrapplugin")
 
 }

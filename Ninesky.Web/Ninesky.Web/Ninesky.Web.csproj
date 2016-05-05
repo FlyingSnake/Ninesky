@@ -171,8 +171,10 @@
     <Compile Include="Areas\Control\ControlAreaRegistration.cs" />
     <Compile Include="Areas\Control\Controllers\AdminController.cs" />
     <Compile Include="Areas\Control\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Control\Controllers\RoleController.cs" />
     <Compile Include="Areas\Control\Models\AddAdminViewModel.cs" />
     <Compile Include="Areas\Control\Models\LoginViewModel.cs" />
+    <Compile Include="Models\Prompt.cs" />
     <Compile Include="Areas\Member\Controllers\HomeController.cs" />
     <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -236,6 +238,12 @@
     <Content Include="Areas\Control\Views\Admin\Index.cshtml" />
     <Content Include="Areas\Control\Views\Admin\AddPartialView.cshtml" />
     <Content Include="Areas\Control\Views\Admin\MyInfo.cshtml" />
+    <Content Include="Areas\Control\Views\Shared\Prompt.cshtml" />
+    <Content Include="Areas\Control\Views\Role\Index.cshtml" />
+    <Content Include="Areas\Control\Views\Role\SideNavPartialView.cshtml" />
+    <Content Include="Areas\Control\Views\Role\Add.cshtml" />
+    <Content Include="Areas\Control\Views\Role\Modify.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-1.12.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.0.js" />
     <Content Include="Scripts\jquery-1.12.0.min.js" />

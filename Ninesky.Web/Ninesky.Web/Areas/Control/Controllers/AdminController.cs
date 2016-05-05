@@ -30,6 +30,40 @@ namespace Ninesky.Web.Areas.Control.Controllers
         }
 
         /// <summary>
+        /// 添加【Json】
+        /// </summary>
+        /// <param name="addAdmin"></param>
+        /// <returns></returns>
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public JsonResult AddJson(AddAdminViewModel addAdmin)
+        {
+            Response res = new Response();
+            if (ModelState.IsValid)
+            {
+                if (_adminManager.HasAccounts(addAdmin.Accounts))
+                {
+                    res.Code = 0;
+                    res.Message = "帐号已存在";
+                }
+                else
+                {
+                    Administrator admin = new Administrator();
+                    admin.Accounts = addAdmin.Accounts;
+                    admin.CreateTime = System.DateTime.Now;
+                    admin.Password = Security.Sha256(addAdmin.Password);
+                    res = _adminManager.Add(admin);
+                }
+            }
+            else
+            {
+                res.Code = 0;
+                res.Message = General.GetModelErrorString(ModelState);
+            }
+            return Json(res);
+        }
+
+        /// <summary>
         /// 添加【分部视图】
         /// </summary>
         /// <returns></returns>

@@ -54,9 +54,15 @@
     <Compile Include="BaseManager.cs" />
     <Compile Include="ContextFactory.cs" />
     <Compile Include="General\Security.cs" />
+    <Compile Include="Migrations\201605050233508_AddRole.cs" />
+    <Compile Include="Migrations\201605050233508_AddRole.Designer.cs">
+      <DependentUpon>201605050233508_AddRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="NineskyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role.cs" />
+    <Compile Include="RoleManager.cs" />
     <Compile Include="Types\Paging.cs" />
     <Compile Include="Types\Response.cs" />
   </ItemGroup>
@@ -69,6 +75,11 @@
       <Project>{a3c1bd48-be91-43a5-8991-22d74c6b4c0b}</Project>
       <Name>Ninesky.DataLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201605050233508_AddRole.resx">
+      <DependentUpon>201605050233508_AddRole.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
